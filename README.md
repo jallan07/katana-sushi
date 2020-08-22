@@ -1,5 +1,5 @@
 # Katana Sushi
 
-Responsive Bootstrap Website
+Responsive website, built with Bootstrap
 
-# Created by Josh Allan# katana-sushi
+# Created by Josh Allan
