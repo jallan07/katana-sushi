@@ -25,7 +25,7 @@ main {
 
 .hero {
     position: relative;
-    background-image: url(/images/sushi-hero.jpg);
+    background-image: url("../images/sushi-hero.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
