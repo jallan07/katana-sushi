@@ -1,0 +1,50 @@
+* {
+    box-sizing: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1A1A1A;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body { 
+    background-color: #F7F7F9;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+    background-image: url(/images/sushi-hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.jumbotron {
+    position: absolute;
+    margin: 15% 10%;
+    background: transparent;
+}
+
+.jumbotron h1 {
+    color: #F7F7F9;
+}
+
+.jumbotron p {
+    color: #F7F7F9;
+}
+
+.hero .lead {
+    width: 80%
+}
