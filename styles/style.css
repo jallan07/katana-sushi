@@ -1,15 +1,24 @@
+/* General Resets */
 * {
     box-sizing: none;
     margin: 0;
     padding: 0;
 }
 
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+
+/* Header & Main Nav */
 header {
     background: #1A1A1A;
     position: fixed;
     width: 100%;
     z-index: 1000;
 }
+
 nav {
     width: 80%;
     margin: 0 auto;
