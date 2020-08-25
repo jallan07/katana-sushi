@@ -21,6 +21,7 @@ body {
 
 main {
     margin: 0 auto;
+    width: 100%;
 }
 
 .hero {
@@ -47,4 +48,8 @@ main {
 
 .hero .lead {
     width: 80%
+}
+
+.location-details-home {
+    max-width: 80%;
 }
