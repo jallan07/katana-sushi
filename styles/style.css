@@ -15,6 +15,10 @@ button, .button, input, .btn-secondary {
     appearance: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Header & Main Nav */
 header {
     background: #1A1A1A;
