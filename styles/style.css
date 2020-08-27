@@ -41,6 +41,7 @@ main {
     width: 100%;
 }
 
+/* Hero section customization */
 .hero {
     /* position: relative; */
     background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,0.1)), url(../images/sushi-hero.jpg) no-repeat center center fixed; 
@@ -95,6 +96,11 @@ main {
     transition: all ease 0.3s;
 }
 
+
+/* Scrollbar customization */
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color:goldenrod!important;
+}
 
 
 
