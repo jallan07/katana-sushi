@@ -82,13 +82,21 @@ main {
 .menu-header {
     text-align: center;
 }
-.menu-container {
+
+.menu-heading-container {
     background: #f1f1f1;
     width: 100%;
 }
+
+.menu-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .menu-nav {
     justify-content: center;
 }
+
 .menu-nav li a {
     font-size: 22px;
     color: #55595c;
@@ -106,16 +114,21 @@ main {
     background-color:goldenrod!important;
 }
 
+.gallery-container {
+    width: 80%;
+    margin: 0 auto;
+}
 
 
+.gallery {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}	
 
-
-
-
-
-
-
-
+.gallery img {
+    width: 100%; padding: 7px 0;
+}
 
 
 /* Media Queries */
@@ -134,4 +147,13 @@ main {
         width: 90%;
         margin: 0 auto;
     }
+}
+
+@media (max-width: 500px) {		
+    .gallery {
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+    }
+
 }
