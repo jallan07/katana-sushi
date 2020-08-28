@@ -33,7 +33,7 @@ nav {
 }
 
 nav li {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 body { 
@@ -84,8 +84,11 @@ main {
 }
 
 .menu-heading-container {
-    background: #f1f1f1;
-    width: 100%;
+    background: #f9f9f2;
+    width: 90%;
+    margin: 0 auto;
+    border: solid #00000031 2px;
+    /* border-radius: 2px; */
 }
 
 .menu-container {
@@ -98,7 +101,7 @@ main {
 }
 
 .menu-nav li a {
-    font-size: 22px;
+    font-size: 16px;
     color: #55595c;
     transition: all ease 0.3s;
 }
@@ -106,6 +109,14 @@ main {
 .menu-nav li a:hover {
     color: goldenrod;
     transition: all ease 0.3s;
+}
+
+.menu-item-all {
+    margin: 0 auto;
+}
+
+.menu-item-all h3 {
+    font-size: 18px;
 }
 
 
@@ -121,9 +132,9 @@ main {
 
 
 .gallery {
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }	
 
 .gallery img {
