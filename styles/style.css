@@ -125,6 +125,25 @@ main {
     background-color:goldenrod!important;
 }
 
+footer {
+    height: 120px;
+    background: rgb(33, 33, 33);
+}
+
+footer .row {
+    width: 100%
+}
+
+footer h4 {
+    padding-top: 6%;
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
 
 /* Media Queries */
 

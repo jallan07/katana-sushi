@@ -2,6 +2,7 @@
 
 var divs = ["specialty", "combo", "nigiri", "sashimi", "desserts"];
 var visibleDivId = null;
+
 function divVisibility(divId) {
   if(visibleDivId === divId) {
     visibleDivId = null;
@@ -10,6 +11,7 @@ function divVisibility(divId) {
   }
   hideNonVisibleDivs();
 }
+
 function hideNonVisibleDivs() {
   var i, divId, div;
   for(i = 0; i < divs.length; i++) {
