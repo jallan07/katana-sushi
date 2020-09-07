@@ -103,19 +103,19 @@
                 <div class="col-md-12 mb-1">
                   <ul class="nav menu-nav mb-3">
                     <li class="nav-item">
-                      <a class="nav-link" href="#specialty">Specialty</a>
+                      <a class="nav-link" onclick="divVisibility('specialty');">Specialty</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#combo">Combo</a>
+                      <a class="nav-link" onclick="divVisibility('combo');">Combo</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#nigiri">Nigiri</a>
+                      <a class="nav-link" onclick="divVisibility('nigiri');">Nigiri</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#sashimi">Sashimi</a>
+                      <a class="nav-link" onclick="divVisibility('sashimi');">Sashimi</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#desserts">Desserts</a>
+                      <a class="nav-link" onclick="divVisibility('desserts');">Desserts</a>
                     </li>
                   </ul>
                 </div>
@@ -252,7 +252,7 @@
               </section>
 
               <!-- Combo Rolls Section -->
-              <section class="wrapper" id="combo">
+              <section class="wrapper" id="combo" style="display: none;">
               <hr class="mb-5"></hr>
               <section class="mb-1">
               <h3 class="mb-5">Combo Rolls</h3>
@@ -353,7 +353,7 @@
               </section>
 
                <!-- Nigiri Rolls Section -->
-              <section class="wrapper" id="nigiri">
+              <section class="wrapper" id="nigiri" style="display: none;">
               <hr class="mb-5"></hr>
               <section class="mb-1">
               <h3 class="mb-5">Nigiri Rolls</h3>
@@ -454,7 +454,7 @@
               </section>
 
                <!-- Sashimi Rolls Section -->
-              <section class="wrapper" id="sashimi">
+              <section class="wrapper" id="sashimi" style="display: none;">
               <hr class="mb-5"></hr>
               <section class="mb-1">
               <h3 class="mb-5">Sashimi Rolls</h3>
@@ -527,7 +527,7 @@
               </section>
 
               <!-- Desserts Section -->
-              <section class="wrapper" id="desserts">
+              <section class="wrapper" id="desserts" style="display: none;">
               <hr class="mb-5"></hr>
               <section class="mb-1">
               <h3 class="mb-5">Desserts</h3>
@@ -619,6 +619,8 @@
           </section>
 
         </main>
+
+        <script src="script.js"></script>
 
         <!-- Bootstrap scripts -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

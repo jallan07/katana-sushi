@@ -1,31 +1,24 @@
-var specialtyEl = document.getElementById("specialty");
-var comboEl = document.getElementById("combo");
-var nigiriEl = document.getElementById("nigiri");
-var sashimiEl = document.getElementById("sashimi");
-var dessertsEl = document.getElementById("desserts");
+// Instructions followed here to create a dynamic menu that you can toggle: https://stackoverflow.com/questions/31799603/show-hide-multiple-divs-javascript
 
-
-
-// NEED TO FOLLOW THESE INSTRUCTIONS: https://stackoverflow.com/questions/31799603/show-hide-multiple-divs-javascript
-
-
-// function toggleMenu() {
-//     if (comboEl === "click") {
-//         comboEl.classList.remove("hide");
-//     } else if (nigiriEl === "click") {
-//         nigiriEl.classList.remove("hide");
-//     } else if (sashimiEl === "click") {
-//         sashimiEl.classList.remove("hide");
-//     } else if (dessertsEl === "clicked") {
-//         dessertsEl.classList.remove("hide");
-//     } else {
-//         specialtyEl.classList.remove("hide");
-//     }
-// };
-
-
-specialtyEl.addEventListener("click", toggleMenu);
-comboEl.addEventListener("click", toggleMenu);
-nigiriEl.addEventListener("click", toggleMenu);
-sashimiEl.addEventListener("click", toggleMenu);
-dessertsEl.addEventListener("click", toggleMenu);
+var divs = ["specialty", "combo", "nigiri", "sashimi", "desserts"];
+var visibleDivId = null;
+function divVisibility(divId) {
+  if(visibleDivId === divId) {
+    visibleDivId = null;
+  } else {
+    visibleDivId = divId;
+  }
+  hideNonVisibleDivs();
+}
+function hideNonVisibleDivs() {
+  var i, divId, div;
+  for(i = 0; i < divs.length; i++) {
+    divId = divs[i];
+    div = document.getElementById(divId);
+    if(visibleDivId === divId) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  }
+}
