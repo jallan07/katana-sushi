@@ -125,26 +125,6 @@ main {
     background-color:goldenrod!important;
 }
 
-.gallery-container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-
-.gallery {
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-}	
-
-.gallery img {
-    width: 100%; padding: 7px 0;
-}
-
-.hide {
-    display: none;
-  }
-
 
 /* Media Queries */
 
